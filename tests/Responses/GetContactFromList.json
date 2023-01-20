@@ -1,0 +1,72 @@
+{
+    "base": {
+        "contact_id": "f51f0117ba",
+        "status": "active",
+        "consent": "consent",
+        "consent_date": "0000-00-00 00:00:00",
+        "subscription_method": "api",
+        "subscription_date": "2023-01-19 22:02:34",
+        "subscription_form": 0,
+        "unsubscription_method": "",
+        "unsubscription_reason": "",
+        "unsubscription_observation": "",
+        "unsubscription_date": "0000-00-00 00:00:00",
+        "change_date": "0000-00-00",
+        "first_name": "John",
+        "last_name": "Doe",
+        "birth_date": "10-01-1975",
+        "language": "en",
+        "email": "example2@e-goi.com",
+        "email_status": "active",
+        "cellphone": "",
+        "cellphone_status": "active",
+        "phone": "",
+        "phone_status": "active",
+        "push_token_android": [],
+        "push_token_ios": []
+    },
+    "extra": [],
+    "tags": [],
+    "email_stats": {
+        "sent": 0,
+        "opens": 0,
+        "clicks": 0,
+        "soft_bounces": 0,
+        "hard_bounces": 0,
+        "forwards": 0,
+        "conversions": 0,
+        "social_actions": 0,
+        "last_send_date": "0000-00-00 00:00:00",
+        "last_open_date": "0000-00-00 00:00:00",
+        "last_click_date": "0000-00-00 00:00:00",
+        "last_open_country": "0000-00-00 00:00:00",
+        "last_open_region": "0000-00-00 00:00:00",
+        "last_open_city": "0000-00-00 00:00:00"
+    },
+    "sms_stats": {
+        "sent": 0,
+        "delivered": 0
+    },
+    "push_stats": {
+        "sent": 0,
+        "delivered": 0,
+        "not_delivered": 0,
+        "views": 0,
+        "clicks": 0,
+        "last_view_date": "0000-00-00 00:00:00"
+    },
+    "webpush_stats": {
+        "sent": 0,
+        "delivered": 0,
+        "clicks": 0,
+        "bounces": 0,
+        "last_send_date": "0000-00-00 00:00:00",
+        "last_delivery_date": "0000-00-00 00:00:00",
+        "last_click_date": "0000-00-00 00:00:00",
+        "last_bounce_date": "0000-00-00 00:00:00"
+    },
+    "voice_stats": {
+        "sent": 0,
+        "answered": 0
+    }
+}

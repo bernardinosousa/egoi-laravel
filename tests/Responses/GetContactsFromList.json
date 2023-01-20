@@ -1,0 +1,35 @@
+{
+    "total_items": 1,
+    "items": [
+        {
+            "base": {
+                "contact_id": "f51f0117ba",
+                "status": "active",
+                "consent": "consent",
+                "consent_date": "0000-00-00 00:00:00",
+                "subscription_method": "api",
+                "subscription_date": "2023-01-19 22:02:34",
+                "subscription_form": 0,
+                "unsubscription_method": "",
+                "unsubscription_reason": "",
+                "unsubscription_observation": "",
+                "unsubscription_date": "0000-00-00 00:00:00",
+                "change_date": "0000-00-00",
+                "first_name": "John",
+                "last_name": "Doe",
+                "birth_date": "1975-01-10",
+                "language": "en",
+                "email": "example@e-goi.com",
+                "email_status": "active",
+                "cellphone": "",
+                "cellphone_status": "active",
+                "phone": "",
+                "phone_status": "active",
+                "push_token_android": [],
+                "push_token_ios": []
+            },
+            "extra": [],
+            "tags": []
+        }
+    ]
+}

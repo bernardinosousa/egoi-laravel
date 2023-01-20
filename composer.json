@@ -1,22 +1,23 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "bernardinosousa/egoi-laravel",
+    "description": "E-goi/sdk-php Wrapper for Laravel",
     "keywords": [
-        ":vendor_name",
+        "bernardinosousa",
         "laravel",
-        ":package_slug"
+        "egoi-laravel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/bernardinosousa/egoi-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Bernardino Sousa",
+            "email": "bfgsousa@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
+        "e-goi/sdk-php": "*@dev",
         "spatie/laravel-package-tools": "^1.14.0",
         "illuminate/contracts": "^9.0"
     },
@@ -35,13 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Bernardinosousa\\EgoiLaravel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Bernardinosousa\\EgoiLaravel\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,6 +50,12 @@
         "test": "vendor/bin/pest",
         "test-coverage": "vendor/bin/pest --coverage",
         "format": "vendor/bin/pint"
+    },
+    "repositories": {
+        "egoi": {
+            "type": "vcs",
+            "url": "https://github.com/e-goi/sdk-php.git"
+        }
     },
     "config": {
         "sort-packages": true,
@@ -61,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Bernardinosousa\\EgoiLaravel\\EgoiLaravelServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "EgoiLaravel": "Bernardinosousa\\EgoiLaravel\\Facades\\EgoiLaravel"
             }
         }
     },
