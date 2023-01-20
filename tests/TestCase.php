@@ -2,7 +2,6 @@
 
 namespace Bernardinosousa\EgoiLaravel\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Bernardinosousa\EgoiLaravel\EgoiLaravelServiceProvider;
 
